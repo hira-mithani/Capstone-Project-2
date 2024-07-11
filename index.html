@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greens Garden</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/2fa3fa30b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="d-none d-sm-none d-md-block">
+        <div class="container navs fs-6 fw-light">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <span class="navbar-text d-none d-sm-none d-lg-block">
+                        World's Fastest Online Shopping Destination
+                    </span>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn border-0 border-end navs" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            <iconify-icon icon="fluent-mdl2:contact" noobserver></iconify-icon>
+                            My Account
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                            <li><a class="dropdown-item" href="./pages/./sign up/./signup.html">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="./pages/./rigister/./rigister.html">Rigister</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group navs">
+                        <button type="button" class="btn border-0 border-end" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            Currency:EUR
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                            <li><button class="dropdown-item" type="button">€ EUR</button></li>
+                            <li><button class="dropdown-item" type="button">$ USD</button></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group navs">
+                        <button type="button" class="btn border-0 border-end" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            Language:English
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start ">
+                            <div class=" d-flex align-items-center justify-content-center">
+                                <img src="./imges/1.jpg" alt="img">
+                                <li><span class="dropdown-item">English</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./imges/2.jpg" alt="img">
+                                <li><span class="dropdown-item">اللغةالعربية</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./imges/3.jpg" alt="img">
+                                <li><span class="dropdown-item"> Français</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./imges/4.jpg" alt="img">
+                                <li><span class="dropdown-item"> Español</span></li>
+                            </div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top Header -->
+    <div class="top-header mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="header-left col-md-4 d-none d-sm-none d-md-block">
+                    <div class="header-top-text bg-white position-relative">
+                        <div class="customer-support">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>
+                                <span class="contact">Customer Support</span>
+                                <span>+91 0121544489</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-center col-md-4 col-sm-6" id="desktop-logo">
+                    <img class="logo img-responsive img-fluid" src="./imges/logo-1650368115.jpg" alt="greensgarden">
+                </div>
+                <div id="desktop-cart" class="col-md-4 col-sm-6 d-flex justify-content-center">
+
+                    <div class="header-cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="header-top-text">
+                            <div class="customer-support">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>
+                                    <span class="contact">Painer</span>
+                                    <span>0,00 € - 0 Objet</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title fs-5" id="exampleModalLabel">There are no items in your
+                                        cart.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Navs -->
+    <div class="sticky-top bg-white py-3 ">
+        <div class="container d-none d-sm-none d-md-block">
+            <div class=" ">
+                <div class="d-flex align-items-center justify-content-between">
+                    <ul class="d-flex list-unstyled list">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="./pages/gradening store/gradening.html">
+                                GARDENING STORE</a>
+                        </li>
+
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="./pages/./products/./products.html">Products</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="./pages/blog/blog.html">BLOG</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar d-md-none">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-success text-white">
+                    <h2>Menu</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="">
+                    <ul class="list-unstyled ">
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-4 header-nav mt-3">
+                            <a class="nav-link" href="./pages/gradening store/gradening.html">
+                                GARDENING STORE</a>
+                        </li>
+
+                        <li class="nav-item mx-4 header-nav mt-3">
+                            <a class="nav-link" href="./pages/./products/./products.html">Products</a>
+                        </li>
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" href="./pages/blog/blog.html">BLOG</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Home -->
+
+    <div class="bg-img bg-cover d-flex flex-column justify-content-center align-items-center text-center mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 text-center">
+                    <h2 class="promo-desc mt-sm-0 mx-sm-0">Discount Up To 40% Off</h2>
+                    <h1 class="promo-title ">Best Quality <br> Gardening Tools
+                    </h1>
+                    <button class="button rounded-pill border-0 text-white px-4 py-2 m">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cards -->
+    <div class="bg-body-tertiary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-6 col-md-4 col-lg-2 category-icon mt-4">
+                    <img src="./imges/thumb-1.png" alt="Plants">
+                    <p>Plants</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 category-icon mt-4">
+                    <img src="./imges/thumb-2.png" alt="Shovel & Rake">
+                    <p>Shovel & Rake</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 category-icon mt-4">
+                    <img src="./imges/thumb-3.png" alt="Fertilizer">
+                    <p>Fertilizer</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 category-icon mt-4">
+                    <img src="./imges/thumb-4.png" alt="Seed Bag">
+                    <p>Seed Bag</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 category-icon mt-4">
+                    <img src="./imges/thumb-5.png" alt="Watering Can">
+                    <p>Watering Can</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 category-icon mt-4">
+                    <img src="./imges/thumb-1.png" alt="Plants">
+                    <p>Accessories</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <!-- Gardening Tools Card -->
+                <div class="col-md-4">
+                    <div class="offer-card w-100">
+                        <p>Flat 50% Discount</p>
+                        <img class="img-fluid" src="./imges/banner-1 (1).jpg" alt="Gardening Tools">
+                        <h5 class="heading">Gardening Tools</h5>
+                        <button class="button rounded-pill border-0 text-white px-4 py-2 mt-4">SHOP NOW</button>
+                    </div>
+                </div>
+                <!-- Buy Garden Equipments Card -->
+                <div class="col-md-4">
+                    <div class="offer-card w-100">
+                        <p>Best Quality Products</p>
+                        <img class="img-fluid text-center w-100" src="./imges/hummingbird-cushion.jpg"
+                            alt="Gardening Tools">
+                        <h5 class="heading">Buy Garden Equipments</h5>
+                        <button class="button rounded-pill border-0 text-white px-4 py-2 mt-4">SHOP NOW</button>
+                    </div>
+                </div>
+                <!-- Wheelbarrow Card -->
+                <div class="col-md-4">
+                    <div class="offer-card w-100 ">
+                        <p>Flat 50% Discount</p>
+                        <img class="img-fluid" src="./imges/banner-3.jpg" alt="Wheelbarrow">
+                        <h5 class="headin">Wheelbarrow</h5>
+                        <button class="button rounded-pill border-0 text-white px-4 py-2 mt-4">SHOP NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Main Section  -->
+        <div class="container bg-body-tertiary sections">
+            <h2 class="text-center my-5 special">Special Products</h2>
+            <hr class="hr mb-5">
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="./imges/customizable-mug.jpg" alt="Broadfork">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Broadfork</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+
+                </div>
+                <div class="product-item">
+                    <img src="./imges/the-best-is-yet-to-come-framed-poster.jpg" alt="Cultivator">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Cultivator</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+                </div>
+                <div class="product-item">
+                    <img src="./imges/mountain-fox-notebook.jpg" alt="Gardening Frok">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Gardening Frok</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+                </div>
+                <div class="product-item">
+                    <img src="./imges/mountain-fox-cushion.jpg" alt="Shovel">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Shovel</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="./imges/pack-mug-framed-poster.jpg" alt="Wheelbarrow">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Wheelbarrow</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+                </div>
+                <div class="product-item">
+                    <img src="./imges/mug-today-is-a-good-day.jpg" alt="Gardening Trowel">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Gardening Trowel</h3>
+
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+                </div>
+                <div class="product-item">
+                    <img src="./imges/brown-bear-notebook.jpg" alt="Axe">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Axe</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+                </div>
+                <div class="product-item">
+                    <img src="./imges/brown-bear-cushion.jpg" alt="Sharpner">
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                    <h3 class="sharpner">Sharpner</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                    <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                        <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- Sections -->
+    <div class="offer-img bg-cover d-flex flex-column justify-content-center align-items-center text-center mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 text-center">
+                    <h2 class="offer mt-sm-0 mx-sm-0">Special Offer 20% Flat</h2>
+                    <h1 class="best">Best Amazing Flowers <br>
+                        Plants 2021
+                    </h1>
+                    <button class="button rounded-pill border-0 text-white px-4 py-2 mt-4">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd Cards -->
+    <div class="bg-body-tertiary">
+        <div class="container text-center my-5">
+            <div class="row">
+                <div class="col-md-3 border-end my-5">
+                    <div class="icon mb-3"><i class="fa-solid fa-jet-fighter-up"></i></div>
+                    <h5 class="products ">Free Worldwide Shipping</h5>
+                    <p class="cash-prise">On order over $150</p>
+                </div>
+                <div class="col-md-3 border-end my-5">
+                    <div class="icon mb-3"><i class="fa-solid fa-wallet"></i></div>
+                    <h5 class="h-two">Money Back Guarantee</h5>
+                    <p class="cash-prise">Cash On Delivery</p>
+                </div>
+                <div class="col-md-3 border-end my-5">
+                    <div class="icon mb-3"><i class="fa-solid fa-gift"></i></div>
+                    <h5 class="h-one">Special Gift Card</h5>
+                    <p class="cash-prise">Offer special bonuses with gift</p>
+                </div>
+                <div class="col-md-3 my-5">
+                    <div class="icon mb-3"><i class="fa-solid fa-headset"></i></div>
+                    <h5 class="h-one">Best Online Support</h5>
+                    <p class="cash-prise">Call us 24/7 at 123-456-789</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="h2 products text-center"><span>Deal Of The Day</span></h2>
+            <hr class="hr">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="deal-card mt-4">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <img src="./imges/mountain-fox-notebook.jpg" alt="img">
+                            </div>
+                            <div class="text-center mt-4">
+
+                                <span class="sembul">45 Mins</span>
+                                <span class="sembul">16 Sec</span>
+                                <h4 class="watering mb-3">Gas Edger</h4>
+                                <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                                <div class="stars fs-5 mb-3">★★★★★</div>
+                                <p class="lorem mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod...</p>
+                                <div class="countdown mb-3">147 Days 13 Hours 56 Mins 33 Secs</div>
+                                <button class="add-carb rounded-start-pill px-4 py-1"><span class="">1</span></button>
+                                <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                                    <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                                </button>
+                                <div class="icon fs-6 ">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon fs-6 ">
+                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="deal-card mt-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <img src="./imges/brown-bear-notebook.jpg" alt="img">
+                            </div>
+                            <div class="text-center mt-4">
+
+                                <span class="sembul">45 Mins</span>
+                                <span class="sembul">16 Sec</span>
+                                <h4 class="watering mb-3">Watering Pipe</h4>
+                                <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                                <div class="stars fs-5 mb-3">★★★★★</div>
+                                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod...</p>
+                                <div class="countdown mb-3">147 Days 13 Hours 56 Mins 33 Secs</div>
+                                <button class="add-carb rounded-start-pill px-4 py-1 "><span class="">1</span></button>
+                                <button class="add-to-cart btn py-1 mb-1" data-button-action="add-to-cart">
+                                    <span i class="fa-solid fa-bag-shopping"></i></span> Add to cart
+                                </button>
+                                <div class="icon fs-6">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon fs-6 ">
+                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3rd Section -->
+        <section class="products-section third-section">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-items">
+                    <img src="./imges/pic-1.jpg" alt="Axe">
+                    <h3>Axe</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+
+                </div>
+                <div class="product-items">
+                    <img src="./imges/pic-2.jpg" alt="Cultivator">
+                    <h3>Cultivator</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+
+                </div>
+                <div class="product-items">
+                    <img src="./imges/pic-3.jpg" alt="Gardening Frok">
+                    <h3>Gardening Frok</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+
+                </div>
+
+                <div class="product-items">
+                    <img src="./imges/pic-4.jpg" alt="Gardening Trowel">
+                    <h3>Gardening Trowel</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="products-section">
+            <h2>Best Selling Products</h2>
+            <div class="product-grid">
+                <div class="product-items">
+                    <img src="./imges/pic-5.jpg" alt="Broadfork">
+                    <h3>Broadfork</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+
+                </div>
+                <div class="product-items">
+                    <img src="./imges/pic-3.jpg" alt="Garden Trowel">
+                    <h3>Garden Trowel</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+
+                </div>
+                <div class="product-items">
+                    <img src="./imges/pic-1.jpg" alt="Gloves">
+                    <h3>Gloves</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+
+                </div>
+                <div class="product-items">
+                    <img src="./imges/pic-7.jpg" alt="Gas Edger">
+                    <h3>Gas Edger</h3>
+                    <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                    <div class="stars fs-5 mb-3">★★★★★</div>
+                </div>
+            </div>
+        </section>
+        <!-- 4th Section -->
+        <div class="block-newsletter section-margin-top">
+            <div class="container">
+                <div class="row">
+                    <div class="newsletter-block-content">
+                        <div class="block-newsletter-label col-lg-6 col-sm-12">
+                            <div class="news-des">
+                                <h5 class="widget-title text-white">Sign Up To Newsletter</h5>
+                                <div class="newsletter-description text-white">stay up to date with new collections and
+                                    exclusive
+                                    offers.</div>
+
+                            </div>
+                        </div>
+                        <div id="footer-newsletter" class="block-newsletter-form col-lg-6 col-sm-12 d-none">
+                            <form action="" method="post">
+                                <div class="block-newsletter-form-inner">
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <input name="email" type="email" value="" placeholder="Your email address"
+                                            aria-labelledby="block-newsletter-label" required="">
+                                        <button class="btn" name="submitNewsletter" type="submit">
+                                            Subscribe
+                                        </button>
+                                        <input type="hidden" name="action" value="0">
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="testimonial-section">
+            <div class="container">
+                <div class="testimonial-box text-center">
+                    <div class="h2 product-section-title hidden-xs-up">
+                        <img class="rounded-circle" src="./imges/sample-2.jpg" alt="img">
+                    </div>
+                    <div class="owl-stage">
+                        <h6 class="testimonial-author">Sample2</h6>
+                        <div class="testimonial-customer">Customer</div>
+                        <div class="testimonial-intro">
+                            <div class="testimonial-quotes">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- Our Blog -->
+    <section class="blog-part section-padding bg-body-tertiary my-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="section-tittle text-center">
+                        <h2 class="my-4">Our Blog</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-between">
+                    <div class="col-sm-3 d-none d-sm-block">
+                        <div class="single-home-blog">
+                            <div class="card">
+                                <img src="./imges/img.jpg" class="card-img-top" alt="blog">
+                                <div class="card-body">
+                                    <h5 class="card-title">Consectetur Adipiscing</h5>
+                                    <p class="ipsum-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the ...
+                                    </p>
+                                    <hr>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="ipsum">21 April 2022</p>
+                                        <p class="ipsum">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 d-none d-sm-block">
+                        <div class="single-home-blog">
+                            <div class="card">
+                                <img src="./imges/img2.jpg" class="card-img-top" alt="blog">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Lorem Ipsum Dolo</h5>
+                                    <p class="ipsum-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the ...
+                                    </p>
+                                    <hr>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="ipsum">21 April 2022</p>
+                                        <p class="ipsum">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-home-blog">
+                            <div class="card">
+                                <img src="./imges/img3.jpg" class="card-img-top" alt="blog">
+                                <div class="card-body">
+                                    <h5 class="card-title px-4">Lorem Ipsum Dolo</h5>
+                                    <p class="ipsum-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the ...
+                                    </p>
+                                    <hr>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="ipsum">21 April 2022</p>
+                                        <p class="ipsum">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Last Card -->
+
+        <div class="container">
+
+            <div class="row my-5">
+                <div class="col-md-2 col-xs-2">
+                    <div class="brand-item text-white">
+                        <img src="./imges/5 (1).jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="brand-item text-white">
+                        <img src="./imges/6 (1).jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="brand-item text-white">
+                        <img src="./imges/7 (1).jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="brand-item text-white">
+                        <img src="./imges/8 (1).jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="brand-item text-white">
+                        <img src="./imges/9 (1).jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="brand-item text-white">
+                        <img src="./imges/10 (1).jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer container">
+
+        <div class="column">
+
+            <img src="./imges/logo-1650368115.jpg" alt="logo">
+            <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt lorem
+                consectetur tempor incididunt enim ad minim simply random text. It has pieceeveniam.</p>
+        </div>
+        <div class="column">
+            <h3>Information</h3>
+            <ul>
+                <li>Delivery</li>
+                <li>Legal Notice</li>
+                <li>About Us</li>
+                <li>Secure Payment</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>My Account</h3>
+            <ul>
+                <li>Personal Info</a></li>
+                <li>Orders</li>
+                <li>Credit Slips</li>
+                <li>Addresses</li>
+                <li>My Wishlists</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Contact Info</h3>
+            <ul>
+                <li>71 Pennington Lane Vernon Rockville, CT 06066.</li>
+                <li>0123-456-789, 123-456-7890</li>
+                <li>Demo@Yourstore.Com</li>
+            </ul>
+        </div>
+        <div class="footer-middle container">
+            <section class="block-social">
+                <ul>
+                    <li class="facebook"><i class="fa fa-facebook"></i></li>
+                    <li class="twitter"><i class="fa fa-twitter"></i></li>
+                    <li class="googleplus"><i class="fa fa-google-plus"></i></li>
+                    <li class="linkedin"><i class="fa fa-linkedin-square"></i></li>
+                    <li class="pinterest"><i class="fa fa-pinterest"></i></li>
+                </ul>
+            </section>
+            <section class="footer-payment-block">
+                <div class="footer-payment">
+                    <img src="./imges/payment.png" alt="payment">
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <div class="py-3 my-4">
+                <div class="nav justify-content-center border-bottom pb-3 mb-3"></div>
+                <p class="text-para text-center">© 2024 - Ecommerce software by PrestaShop™</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

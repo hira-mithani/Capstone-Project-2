@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARDENING STORE</title>
+    <link rel="stylesheet" href="../../css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/2fa3fa30b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="d-none d-sm-none d-md-block">
+        <div class="container navs">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <span class="navbar-text d-none d-sm-none d-lg-block">
+                        World's Fastest Online Shopping Destination
+                    </span>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn border-0 border-end navs" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            <iconify-icon icon="fluent-mdl2:contact" noobserver></iconify-icon>
+                            My Account
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                            <li><a class="dropdown-item" href="../../pages/sign up/signup.html">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="../../pages/rigister/rigister.html">Rigister</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group navs">
+                        <button type="button" class="btn border-0 border-end" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            Currency:EUR
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                            <li><button class="dropdown-item" type="button">€ EUR</button></li>
+                            <li><button class="dropdown-item" type="button">$ USD</button></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group navs">
+                        <button type="button" class="btn border-0 border-end" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            Language:English
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start ">
+                            <div class=" d-flex align-items-center justify-content-center">
+                                <img src="../../imges/1.jpg" alt="img">
+                                <li><span class="dropdown-item">English</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../../imges/2.jpg" alt="img">
+                                <li><span class="dropdown-item">اللغةالعربية</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../../imges/3.jpg" alt="img">
+                                <li><span class="dropdown-item"> Français</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../../imges/4.jpg" alt="img">
+                                <li><span class="dropdown-item"> Español</span></li>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- top Header -->
+    <div class="top-header mt-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="header-left col-md-4 d-none d-sm-none d-md-block">
+                    <div class="header-top-text">
+                        <div class="customer-support">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>
+                                <span class="contact">Customer Support</span>
+                                <span>+91 0121544489</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-center col-md-4 col-sm-6" id="desktop-logo">
+                    <img class="logo img-responsive img-fluid" src="../../imges/logo-1650368115.jpg" alt="greensgarden">
+                </div>
+                <div id="desktop-cart" class="col-md-4 col-sm-6 d-flex justify-content-center">
+
+                    <div class="header-cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="header-top-text">
+                            <div class="customer-support">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>
+                                    <span class="contact">Painer</span>
+                                    <span>0,00 € - 0 Objet</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title fs-5" id="exampleModalLabel">There are no items in your
+                                        cart.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Navs -->
+    <div class="sticky-top bg-white py-3 ">
+        <div class="container d-none d-sm-none d-md-block">
+            <div class=" ">
+                <div class="d-flex align-items-center justify-content-between">
+                    <ul class="d-flex list-unstyled list">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">
+                                GARDENING STORE</a>
+                        </li>
+
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../../pages/./products/./products.html">Products</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../../pages/./blog/./blog.html">BLOG</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar d-md-none">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-success text-white">
+                    <h2>Menu</h2>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="">
+                    <ul class="list-unstyled">
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" href="#">
+                                GARDENING STORE</a>
+                        </li>
+
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" href="../../pages/./products/./products.html">Products</a>
+                        </li>
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" href="../../pages/blog/blog.html">BLOG</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Home -->
+    <div class="container">
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <header class="bg-light py-3 border mb-5 bg-white">
+                        <h1 class="mx-3 garden-heading">GARDEN EQUIPMENT</h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <nav class="col-md-4 col-lg-3 bg-white d-none d-sm-none d-lg-block">
+
+                <div class="border mt-5 px-4">
+                    <h2 class="fs-5 fw-bold mb-2 mt-4">GARDENING STORE</h2>
+                    <ul class="list-unstyled mx-5">
+                        <li class="mb-2 sidebar">Bow Rake</li>
+                        <li class="mb-2 sidebar">Garden Knife</li>
+                        <li class="mb-2 sidebar">Pruning Shears</li>
+                    </ul>
+                </div>
+                <div class="border py-2 mt-3">
+                    <h2 class="border-bottom p-3 fs-5 fw-bold mb-2">FILTER BY</h2>
+
+                    <div class="filter-group px-3 mt-3">
+                        <h3 class="fs-6 fw-bold mb-2 mx-5 mb-3">Categories</h3>
+                        <ul class="list-unstyled mx-5">
+                            <li class="mb-2 sidebar">Garden Equipment (19)</li>
+                            <li class="mb-2 sidebar">Planting Tools (19)</li>
+                            <li class="mb-2 sidebar">String Trimmer (19)</li>
+                        </ul>
+                    </div>
+                    <div class="filter-section">
+                        <h5 class="fs-5 fw-bold mb-2 mx-5 mb-3">Size</h5>
+                        <div class="form-check mx-5 mb-3 sidebar">
+                            <input type="radio" class="form-check-input" id="sizeS" name="size" value="S">
+                            <label class="form-check-label" for="sizeS">S (2)</label>
+                        </div>
+                        <div class="form-check mx-5 mb-3 sidebar">
+                            <input type="radio" class="form-check-input" id="sizeM" name="size" value="M">
+                            <label class="form-check-label" for="sizeM">M (2)</label>
+                        </div>
+                        <div class="form-check mx-5 mb-3 sidebar">
+                            <input type="radio" class="form-check-input" id="sizeL" name="size" value="L">
+                            <label class="form-check-label" for="sizeL">L (2)</label>
+                        </div>
+                        <div class="form-check mx-5 mb-4 sidebar">
+                            <input type="radio" class="form-check-input" id="sizeXL" name="size" value="XL">
+                            <label class="form-check-label" for="sizeXL">XL (2)</label>
+                        </div>
+                        <div class="filter-section">
+                            <h5 class="fs-5 fw-bold mb-2 mx-5 mb-3">Color</h5>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorWhite" name="color" value="White">
+                                <label class="form-check-label" for="colorWhite">White (4)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">Black (4)</label>
+                            </div>
+                        </div>
+                        <div class="filter-section">
+                            <h5 class="fs-5 fw-bold mb-2 mx-5 mb-3">Composition</h5>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorWhite" name="color" value="White">
+                                <label class="form-check-label" for="colorWhite"> Ceramic (4)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">Cotton (2)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">
+                                    Matt paper (3)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">
+                                    Polyester (3)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">
+                                    Recycled cardboard (3)</label>
+                            </div>
+                        </div>
+                        <div class="filter-section">
+                            <h5 class="fs-5 fw-bold mb-2 mx-5 mb-3">Property</h5>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorWhite" name="color" value="White">
+                                <label class="form-check-label" for="colorWhite"> 120 pages (3)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">
+                                    Long sleeves (1)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">
+                                    Short sleeves (1)</label>
+                            </div>
+                            <div class="form-check mx-5 mb-3 sidebar">
+                                <input type="radio" class="form-check-input" id="colorBlack" name="color" value="Black">
+                                <label class="form-check-label" for="colorBlack">
+                                    Polyester (3)</label>
+                            </div>
+                            <div class="filter-group px-4">
+                                <h3 class="fs-5 fw-bold mb-2 mx-5 mb-3">Price</h3>
+                                <input class="mx-3" type="range" class="form-control-range">
+                            </div>
+                            <div class="filter-section">
+                                <h5 class="fs-5 fw-bold mb-2 mx-5 mb-3">Dimension</h5>
+                                <div class="form-check mx-5 mb-3 sidebar">
+                                    <input type="radio" class="form-check-input" id="colorWhite" name="color"
+                                        value="White">
+                                    <label class="form-check-label" for="colorWhite"> 40x60cm (3)</label>
+                                </div>
+                                <div class="form-check mx-5 mb-3 sidebar">
+                                    <input type="radio" class="form-check-input" id="colorBlack" name="color"
+                                        value="Black">
+                                    <label class="form-check-label" for="colorBlack">
+
+                                        60x90cm (3)</label>
+                                </div>
+                                <div class="form-check mx-5 mb-3 sidebar">
+                                    <input type="radio" class="form-check-input" id="colorBlack" name="color"
+                                        value="Black">
+                                    <label class="form-check-label" for="colorBlack">
+                                        80x120cm (3)</label>
+                                </div>
+                                <div class="filter-section">
+                                    <h5 class="fs-5 fw-bold mb-2 mx-5 mb-3">Paper Type</h5>
+                                    <div class="form-check mx-5 mb-3 sidebar">
+                                        <input type="radio" class="form-check-input" id="colorWhite" name="color"
+                                            value="White">
+                                        <label class="form-check-label" for="colorWhite"> Ruled (3)</label>
+                                    </div>
+                                    <div class="form-check mx-5 mb-3 sidebar">
+                                        <input type="radio" class="form-check-input" id="colorBlack" name="color"
+                                            value="Black">
+                                        <label class="form-check-label" for="colorBlack">
+
+                                            Plain (3)</label>
+                                    </div>
+                                    <div class="form-check mx-5 mb-3 sidebar">
+                                        <input type="radio" class="form-check-input" id="colorBlack" name="color"
+                                            value="Black">
+                                        <label class="form-check-label" for="colorBlack">
+
+                                            Squarred (3)</label>
+                                    </div>
+                                    <div class="form-check mx-5 mb-3 sidebar">
+                                        <input type="radio" class="form-check-input" id="colorBlack" name="color"
+                                            value="Black">
+                                        <label class="form-check-label" for="colorBlack">
+                                            Doted (3)</label>
+                                    </div>
+                                    <div class="banner p-3 bg-white mt-4">
+                                        <img class="w-100" src="../../imges/sidebar_banner.jpg" alt="img">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="col-md-8 col-lg-9">
+                <div class="banner bg-white p-4 mb-4 border">
+                    <img class="w-100" src="../../imges/garden-equipment.jpg" alt="img">
+
+                    <h3 class="mt-3 equipment">GARDEN EQUIPMENT</h3>
+                    <p class="dolor-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+                </div>
+                <div class="mx-5">
+                    <h3 class="fs-5">Refine Search</h3>
+                    <div>
+                        <button class="rounded-pill bow-btn px-3 py-1 border"> Bow Rake</button>
+                        <button class="rounded-pill bow-btn px-3 py-1 border"> Garden Knife</button>
+                        <button class="rounded-pill bow-btn px-3 py-1 border"> Pruning Shears</button>
+                    </div>
+                </div>
+                <div class="d-flex there-para justify-content-between align-items-center mb-3  my-4 py-3 mx-5 bg-white">
+                    <div class="">There are 19 products.</div>
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle border" type="button" data-bs-toggle="dropdown"
+                            data-bs-auto-close="true" aria-expanded="false">
+                            Sort By:
+                            RelevanceRelevance
+                        </button>
+
+                        <div class="dropdown-menu  bg-white" aria-labelledby="sortDropdown">
+                            <a class="dropdown-item" href="#">Best sellers</a>
+                            <a class="dropdown-item" href="#">Relevance</a>
+                            <a class="dropdown-item" href="#">Name, A to Z</a>
+                            <a class="dropdown-item" href="#">Name, Z to A</a>
+                            <a class="dropdown-item" href="#">Price, Low to High</a>
+                            <a class="dropdown-item" href="#">Price, High to Low</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/customizable-mug.jpg" alt="Broadfork">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Broadfork</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/the-best-is-yet-to-come-framed-poster.jpg" alt="Cultivator">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Cultivator</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/mountain-fox-notebook.jpg" alt="Gardening Frok">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Gardening Frok</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/mountain-fox-cushion.jpg" alt="Shovel">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Shovel</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/customizable-mug.jpg" alt="Broadfork">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Broadfork</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/the-best-is-yet-to-come-framed-poster.jpg" alt="Cultivator">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Cultivator</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/mountain-fox-notebook.jpg" alt="Gardening Frok">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Gardening Frok</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/mountain-fox-cushion.jpg" alt="Shovel">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Shovel</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center mt-3">
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/pack-mug-framed-poster.jpg" alt="Wheelbarrow">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Wheelbarrow</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/mug-today-is-a-good-day.jpg" alt="Gardening Trowel">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Gardening Trowel</h3>
+
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/brown-bear-notebook.jpg" alt="Axe">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Axe</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="product-item gardian-card mt-3">
+                        <img src="../../imges/brown-bear-cushion.jpg" alt="Sharpner">
+                        <div class="stars fs-5 mb-3">★★★★★</div>
+                        <h3 class="sharpner">Sharpner</h3>
+                        <div class="price mb-3">€18.93 <span class="old-price">€21.03</span></div>
+                        <button> Add to cart</button>
+                    </div>
+                </div>
+                <div
+                    class="d-flex there-para justify-content-between align-items-center mb-3 border my-4 mx-5 py-3 bg-white">
+                    <div class="px-2">Showing 1-12 of 19 item(s)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="bg-white mt-5">
+        <footer class="footer container">
+
+            <div class="column">
+                <img src="../../imges/logo-1650368115.jpg" alt="logo">
+                <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt lorem
+                    consectetur tempor incididunt enim ad minim simply random text. It has pieceeveniam.</p>
+            </div>
+            <div class="column">
+                <h3>Information</h3>
+                <ul>
+                    <li>Delivery</li>
+                    <li>Legal Notice</li>
+                    <li>About Us</li>
+                    <li>Secure Payment</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>My Account</h3>
+                <ul>
+                    <li>Personal Info</a></li>
+                    <li>Orders</li>
+                    <li>Credit Slips</li>
+                    <li>Addresses</li>
+                    <li>My Wishlists</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>71 Pennington Lane Vernon Rockville, CT 06066.</li>
+                    <li>0123-456-789, 123-456-7890</li>
+                    <li>Demo@Yourstore.Com</li>
+                </ul>
+            </div>
+            <div class="footer-middle container">
+                <section class="block-social">
+                    <ul>
+                        <li class="facebook"><i class="fa fa-facebook"></i></li>
+                        <li class="twitter"><i class="fa fa-twitter"></i></li>
+                        <li class="googleplus"><i class="fa fa-google-plus"></i></li>
+                        <li class="linkedin"><i class="fa fa-linkedin-square"></i></li>
+                        <li class="pinterest"><i class="fa fa-pinterest"></i></li>
+                    </ul>
+                </section>
+                <section class="footer-payment-block">
+                    <div class="footer-payment">
+                        <img src="../../imges/payment.png" alt="payment">
+                    </div>
+                </section>
+            </div>
+            <div class="container">
+                <div class="py-3 my-4">
+                    <div class="nav justify-content-center border-bottom pb-3 mb-3"></div>
+                    <p class="text-para text-center">© 2024 - Ecommerce software by PrestaShop™</p>
+                </div>
+            </div>
+    </div>
+    </footer>
+</body>
+
+</html>

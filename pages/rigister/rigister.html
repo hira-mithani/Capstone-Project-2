@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARDENING STORE</title>
+    <link rel="stylesheet" href="../../css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/2fa3fa30b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <nav class="d-none d-sm-none d-md-block">
+        <div class="container navs">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <span class="navbar-text d-none d-sm-none d-lg-block">
+                        World's Fastest Online Shopping Destination
+                    </span>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn border-0 border-end navs" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            <iconify-icon icon="fluent-mdl2:contact" noobserver></iconify-icon>
+                            My Account
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                            <li><a class="dropdown-item" href="../../pages/sign up/signup.html">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="#">Rigister</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group navs">
+                        <button type="button" class="btn border-0 border-end" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            Currency:EUR
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                            <li><button class="dropdown-item" type="button">€ EUR</button></li>
+                            <li><button class="dropdown-item" type="button">$ USD</button></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group navs">
+                        <button type="button" class="btn border-0 border-end" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false">
+                            Language:English
+                            <iconify-icon icon="uil:angle-down" noobserver></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start ">
+                            <div class=" d-flex align-items-center justify-content-center">
+                                <img src="../../imges/1.jpg" alt="img">
+                                <li><span class="dropdown-item">English</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../../imges/2.jpg" alt="img">
+                                <li><span class="dropdown-item">اللغةالعربية</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../../imges/3.jpg" alt="img">
+                                <li><span class="dropdown-item"> Français</span></li>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../../imges/4.jpg" alt="img">
+                                <li><span class="dropdown-item"> Español</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top Header -->
+    <div class="top-header mt-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="header-left col-md-4 d-none d-sm-none d-md-block">
+                    <div class="header-top-text">
+                        <div class="customer-support">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>
+                                <span class="contact">Customer Support</span>
+                                <span>+91 0121544489</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-center col-md-4 col-sm-6" id="desktop-logo">
+                    <img class="logo img-responsive img-fluid" src="../../imges/logo-1650368115.jpg" alt="greensgarden">
+                </div>
+                <div id="desktop-cart" class="col-md-4 col-sm-6 d-flex justify-content-center">
+
+                    <div class="header-cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="header-top-text">
+                            <div class="customer-support">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>
+                                    <span class="contact">Painer</span>
+                                    <span>0,00 € - 0 Objet</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title fs-5" id="exampleModalLabel">There are no items in your
+                                        cart.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Navs -->
+    <div class="sticky-top bg-white py-3 ">
+        <div class="container d-none d-sm-none d-md-block">
+            <div class=" ">
+                <div class="d-flex align-items-center justify-content-between">
+                    <ul class="d-flex list-unstyled list">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../../pages/./gradening store/./gradening.html">
+                                GARDENING STORE</a>
+                        </li>
+
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../../pages/./products/./products.html">Products</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="../../pages/blog/blog.html">BLOG</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar d-md-none">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-success text-white">
+                    <h2>Menu</h2>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="">
+                    <ul class="list-unstyled">
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" href="../../pages/gradening store/gradening.html">
+                                GARDENING STORE</a>
+                        </li>
+
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" href="../products/./products.html">Products</a>
+                        </li>
+                        <li class="nav-item mx-4 mt-3 header-nav">
+                            <a class="nav-link" href="../../pages/blog/blog.html">BLOG</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Rigister -->
+    <div class="bg-body-tertiary">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <header class="py-3 border mb-5 bg-white mt-5">
+                        <h1 class="mx-3 fs-4 text-secondary">LOGIN</h1>
+                    </header>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3 sign-up-span">
+                    <div class="border bg-white p-3">
+                        <h4 class="sign-up">
+                            SHOVEL & RAKE</h4>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li class="py-2">Fork
+                            </li>
+                            <li class="py-2">Soil Knife</li>
+                            <li class="py-2">Weeder</li>
+                            <li class="py-2">Shovel</li>
+                            <li class="py-2">Watering can</li>
+                        </ul>
+                    </div>
+                    <div class="card mt-4">
+                        <img src="../../imges/sidebar_banner.jpg" class="card-img-top" alt="Indoor Plants Care">
+                    </div>
+                </div>
+                <div class="col-md-9 border bg-white">
+                    <form class="my-4 mx-4">
+                        <span>Already have an account? Log in instead!</span>
+                        <div class="input-group">
+                            <label class="mx-3">Social title</label>
+                            <label class="mx-4"><input type="radio" name="title" value="Mr."> Mr.</label>
+                            <label><input type="radio" name="title" value="Mrs."> Mrs.</label>
+                        </div>
+                        <div class="input-group">
+                            <label for="first-name mx-5">First name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="First name">
+                        </div>
+                        <div class="input-group">
+                            <label for="last-name">Last name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Last name">
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Password">
+                        </div>
+                        <div class="input-group">
+                            <label for="birthday">Birthdate</label>
+                            <input type="date" id="birthday" name="birthday">
+                        </div>
+                        <div class="input-group">
+                            <input type="checkbox" id="offers" name="offers">
+                            <label for="offers">Receive offers from our partners</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="checkbox" id="privacy" name="privacy">
+                            <label for="privacy">Customer data privacy</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Sign up for our newsletter</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the terms and conditions and the privacy policy</label>
+                        </div>
+                        <div><button class="button rounded-pill px-4 mt-3 border-0 text-white py-2">Save</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class="footer container mt-5">
+
+        <div class="column">
+
+            <img src="../../imges/logo-1650368115.jpg" alt="logo">
+            <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt lorem
+                consectetur tempor incididunt enim ad minim simply random text. It has pieceeveniam.</p>
+        </div>
+        <div class="column">
+            <h3>Information</h3>
+            <ul>
+                <li>Delivery</li>
+                <li>Legal Notice</li>
+                <li>About Us</li>
+                <li>Secure Payment</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>My Account</h3>
+            <ul>
+                <li>Personal Info</a></li>
+                <li>Orders</li>
+                <li>Credit Slips</li>
+                <li>Addresses</li>
+                <li>My Wishlists</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Contact Info</h3>
+            <ul>
+                <li>71 Pennington Lane Vernon Rockville, CT 06066.</li>
+                <li>0123-456-789, 123-456-7890</li>
+                <li>Demo@Yourstore.Com</li>
+            </ul>
+        </div>
+        <div class="footer-middle container">
+            <section class="block-social">
+                <ul>
+                    <li class="facebook"><i class="fa fa-facebook"></i></li>
+                    <li class="twitter"><i class="fa fa-twitter"></i></li>
+                    <li class="googleplus"><i class="fa fa-google-plus"></i></li>
+                    <li class="linkedin"><i class="fa fa-linkedin-square"></i></li>
+                    <li class="pinterest"><i class="fa fa-pinterest"></i></li>
+                </ul>
+            </section>
+            <section class="footer-payment-block">
+                <div class="footer-payment">
+                    <img src="../../imges/payment.png" alt="payment">
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <div class="py-3 my-4">
+                <div class="nav justify-content-center border-bottom pb-3 mb-3"></div>
+                <p class="text-para text-center">© 2024 - Ecommerce software by PrestaShop™</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
